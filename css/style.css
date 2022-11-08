@@ -1,0 +1,47 @@
+/*Acá voy a poner las fuentes de Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+#menu a, button {
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+#menu a {
+    color: rgba(52, 17, 17, 0.86);
+}
+
+.logo {
+    width: 90px;
+    padding: 0px;
+    margin: 2px;
+}
+
+.slideimg {
+    height: 600x;
+}
+
+/*News*/
+
+#noticias {
+    background-color: #241b1b;
+}
+
+#noticias .titulo {
+    width: 100%;
+    color:black;
+    text-align: center;
+
+}
+
+.imgservicios {
+    width: 180px;
+    height: 160px;
+}
+
+
+
