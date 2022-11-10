@@ -7,7 +7,7 @@
     <title>QA Specialist Juan P Muñoz</title>
 
     <!--Esta es la etiqueta para vincular el css. Si no se pone, pues todo lo que hagas en el css no va a afectar este html.-->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     
 
@@ -33,7 +33,7 @@
 
     <!--La siguiente etiqueta la saqué de la página de Bootstrap >> Component >> Navbar-->
     <nav class="navbar fixed-top navbar-expand-lg p-3 bg-light" id="menu">
-        <div class="container">
+        <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <span class="fs-5 text-primary fw-bold">
               <img src="images/logo1_black.png" alt="JP QA Specialist" class="logo">
@@ -170,13 +170,39 @@
 
         <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5">
           <!--Imagen del servicio-->
-          <img src="images/qualityControlCode.jpg" class="imgservicios" alt="imagenPrueba">
+          <img src="images/qualityControl.jpg" class="imgservicios" alt="imagenPrueba">
           <div>
             <h3 class="fs-5 mt-4 px-4 pb-1">
               Diseño
             </h3>
             <p class="px-4">
               Diseño de aplicaciones web, apps móbiles y de escritorio
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5">
+          <!--Imagen del servicio-->
+          <img src="images/teachingTech.jpg" class="imgservicios" alt="imagenPrueba">
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">
+              Maquetación
+            </h3>
+            <p class="px-4">
+              Maquetación de aplicaciones web, apps móbiles y de escritorio
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5">
+          <!--Imagen del servicio-->
+          <img src="images/webDevelopment.jpg" class="imgservicios" alt="imagenPrueba">
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">
+              Mantenimiento
+            </h3>
+            <p class="px-4">
+              Mantenimiento de aplicaciones web, apps móbiles y de escritorio
             </p>
           </div>
         </div>
@@ -197,6 +223,88 @@
       </div>
     </div>
   </section>
+
+
+  <!--Footer con metodología BEM (Block, Element, Modifier). La etiqueta 'footer' sería el bloque; el primer 'div' sería el elemento en sí; y el otro 'div' sería el modificador. Vale anotar que utilizar esta metodología es sugerido pero no es necesasrio.-->
+
+  <footer id="page-footer">
+    <div class="footer__cta">
+      <div class="footer__cta-ftcontainer">
+        <div class="cta__txt">
+          <h2>
+            Preguntas o solicitudes
+          </h2>
+          <a href="https://wa.me/3014642675" class="cta__btn">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="ftcontainer">
+      <div class="footer__menu">
+        <figure>
+          <img src="images/logo1_white.jpg" alt="" class="footer__logo">
+        </figure>
+        <!--Más redes sociales-->
+        <p class="ft-social-row">
+
+          <a class="ft-social" href="https://www.instagram.com/juanpa8989/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+          
+          <a class="ft-social" href="https://www.linkedin.com/in/juanmunoz89/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+          
+        </p>
+
+        &copy;2022, Todos los derechos reservados
+
+      </div>
+
+      <div class="footer_menu">
+        <h4 class="footer__title">
+          Horarios
+        </h4>
+        <span class="footer__info">
+          Lunes a viernes 8 am. a 3 pm.
+        </span>
+      </div>
+
+      <div class="footer_menu">
+        <h4 class="footer__title">
+          Enlaces
+        </h4>
+        <ul class="ft-link">
+          <li class="footer__link">
+            <a href="nosotros.html" target="_blank" rel="noopener noreferrer"></a>
+          </li>
+          <li class="footer__link">
+            <a href="vision.html" target="_blank" rel="noopener noreferrer"></a>
+          </li>
+          <li class="footer__link">
+            <a href="mission.html" target="_blank" rel="noopener noreferrer"></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__menu">
+        <h4 class="footer__title">
+          Contactos
+        </h4>
+        <p class="footer__info">
+          <i class="fas fa-envelope"></i>
+          Email: juanpa8989@gmail.com
+        </p>
+        <p class="footer__info">
+          <i class="fas fa-map-marker-alt"></i>
+          Dirección: Evergreen St.
+        </p>
+        <p class="footer__info">
+          <i class="fas fa-phone"></i>
+          Teléfono: +573014642675
+        </p>
+      </div>
+
+    </div>
+
+  </footer>
 
 
 

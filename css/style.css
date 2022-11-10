@@ -16,13 +16,12 @@ body {
 }
 
 .logo {
-    width: 90px;
-    padding: 0px;
-    margin: 2px;
+    width: 100px;
+    margin-bottom: -20px;
 }
 
 .slideimg {
-    height: 600x;
+    height: 600px;
 }
 
 /*News*/
@@ -41,6 +40,116 @@ body {
 .imgservicios {
     width: 180px;
     height: 160px;
+}
+
+#page-footer {
+    background-color: #241b1b;
+
+}
+
+#page-footer a {
+    color: bisque;
+}
+
+#page-footer .ftcontainer {
+    display: flex;
+    padding: 40px 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+
+}
+
+.footer__cta-ftcontainer {
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.footer__cta-ftcontainer .cta__txt {
+    font-size: 3.6rem;
+    max-width: 50%;
+    padding: 0;
+}
+
+.footer__cta-ftcontainer .cta__btn {
+    margin-top: 0;
+}
+
+.footer__menu figure {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 13px;
+}
+
+.footer__menu {
+    max-width: 300px;
+    padding-left: 1em; /* 1em son 10 pixeles.*/
+    grid-column: 1/3;
+    grid-row-start: 1;
+
+}
+
+.footer__cta-ftcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: relative;
+    padding: 70px 0;
+
+}
+
+.footer__cta-ftcontainer:after {
+    position: absolute;
+    background-color: rgba(89, 32, 32, 0.514);
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    content: "";
+}
+
+.footer__cta-ftcontainer .cta__txt {
+    color: #fff;
+    font-size: 26px;
+    margin: 0;
+    font-weight: 700;
+    padding: 0 15px;
+}
+
+.footer__cta-ftcontainer .cta__btn {
+    color: #fff;
+    padding: 26px 60px;
+    border: 2px solid rgb(47, 6, 6);
+    border-radius: 500px;
+    background-color: transparent;
+    display: inline-block;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 30px;
+    transition: all .4s ease-in-out;
+}
+.footer__cta-ftcontainer .cta__btn:hover {
+    color: #fff;
+    background-color: rgb(38, 24, 6);
+    border-color: seagreen;
+}
+
+.footer__link {
+    list-style: none;
+    font-size: 14px;
+    margin: 1em 0;
+    padding: 5px 0 5 0.5em;
+    
 }
 
 
